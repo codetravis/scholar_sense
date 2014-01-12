@@ -23,12 +23,12 @@
             {
                // over the login and register options
                include "includes/login.php";
-               echo '<br/> <a href="http://' . $_SERVER['HTTP_HOST'] . '/dev/register/new_user.php">Register</a>';
+               echo '<br/> <a href="http://' . $_SERVER['HTTP_HOST'] . '/scholar_sense/register/new_user.php">Register</a>';
             }
             else
             {
                // otherwise give them an option to logout
-               echo '<a href="http://'. $_SERVER['HTTP_HOST'] . '/dev/logout.php" >LOG OUT</a>';
+               echo '<a href="http://'. $_SERVER['HTTP_HOST'] . '/scholar_sense/logout.php" >LOG OUT</a>';
             }
          ?>
       </div>

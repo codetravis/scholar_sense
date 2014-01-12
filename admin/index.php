@@ -17,7 +17,7 @@
    </head>
    <body>
       <div class="body_wrap">
-         <a href="http://www.scholarsense.com/dev/admin/pending_reg.php" >Verify Users</a>
+         <a href="<?php echo 'http://' . $_SERVER["HTTP_HOST"] . '/scholar_sense/admin/pending_reg.php'?>" >Verify Users</a>
       </div>
    </body>
 </html>

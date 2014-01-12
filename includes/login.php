@@ -30,8 +30,8 @@ require "includes/strings.php";
 	}
 
 ?>
-         <script type="text/javascript" src="/dev/scripts/js/jquery-1.7.2.min.js"></script>
-         <script type="text/javascript" src="/dev/scripts/js/validate_log.js"></script>
+         <script type="text/javascript" src="scripts/js/jquery-1.7.2.min.js"></script>
+         <script type="text/javascript" src="scripts/js/validate_log.js"></script>
          <div class="login">
          <form  action="" onsubmit="return validate_login()" method="post">
          Email<br/>
@@ -100,7 +100,7 @@ require "includes/strings.php";
             $_SESSION["verify"] = $uverify;
             $_SESSION["registered"] = $uregistered;
             $url = $_SERVER["HTTP_HOST"];
-            echo '<script type="text/javascript"> window.location="http://' . $url . '/dev/account";</script>';
+            echo '<script type="text/javascript"> window.location="http://' . $url . '/scholar_sense/account";</script>';
             //header('Location: http://' . $_SERVER["HTTP_HOST"] . '/dev/account/');
          }
          else
