@@ -1,0 +1,143 @@
+body
+{
+   background-color: #F0F0F0;
+	width: 80%;
+}
+
+.main_menu
+{
+	display: block;
+	background-color: #A00010;
+	margin-left: 0%;
+	margin-right: 0%;
+	min-height: 100px;
+
+}
+
+.main_menu ul li
+{
+	display: inline-block;
+	padding-top: 10px;
+	padding-right: 40px;
+	float: left;
+}
+
+.main_menu a
+{
+	color: #FFFFFF;
+}
+
+.border_block
+{
+   background-color: #FFFFFF;
+   border-style: ridge;
+   border-color: #990000;
+   border-width: 5px;
+}
+
+.body_wrap
+{
+   min-height: 500px;
+	width: 100%;
+   margin-left: 10%;
+   margin-right: 10%;
+   background-color: #FFFFFF;
+   box-shadow: 10px 5px 18px #888888;
+}
+
+.title
+{
+	display: inline;
+   margin-left: 20%;
+   margin-right: 10%;
+   margin-top: 1%;
+}
+
+.bio
+{
+   margin-left: 20%;
+   margin-right: 10%;
+   min-height: 400px;
+}
+
+.content
+{
+   margin-left: 5%;
+   margin-right: 10%;
+   margin-bottom: 5%;   
+}
+
+.info
+{
+   margin-left: 20%;
+   margin-right: 10%;
+   margin-bottom: 5%;
+	display: inline-block;
+}
+
+.menu_wrap
+{
+	width: 50%;
+	margin: 0px auto;
+	background-color: #FFFFFF;
+}
+
+#profile_img
+{
+   float: right;
+   width: 300px;
+   height: 350px;
+   
+}
+
+.login
+{
+  display: inline; 
+}
+
+.header
+{
+   margin-left: 0%;
+   margin-right: 10%;
+   background-color: #FFFFFF;
+}
+
+#main_logo
+{
+   margin-left: 1%;
+   margin-top: 1%;
+}
+
+.error
+{
+   color: #FF0000;
+   display: inline-block;
+}
+
+.instr
+{
+   font-size: 12px;
+}
+
+.clear
+{
+   clear:both;
+}
+
+.ver_user
+{
+   margin-left: 5%;
+   color: blue;
+}
+
+.get_out
+{
+	display: block;
+	margin-left: auto;
+	margin-right: 5px;
+}
+.get_out a
+{
+	float: right;
+	margin-right: 0px;
+}
