@@ -1,6 +1,6 @@
 <?php
 
-require_once "classes/db.class.php";
+require_once "classes/DB.class.php";
 
 function test_db()
 {
